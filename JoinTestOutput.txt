@@ -1,0 +1,61 @@
+Creating COURSE with 3 attributes.
+Creating PREREQ with 2 attributes.
+Creating OFFERING with 7 attributes.
+Creating STAFF with 5 attributes.
+Creating INTERESTS with 2 attributes.
+Creating DEPT with 2 attributes.
+
+*****************************************************************************************************************************************
+| CATALOG                                                                                                                               |
+-----------------------------------------------------------------------------------------------------------------------------------------
+| RELNAME                        | RELSCHEMA                                                                                            |
+-----------------------------------------------------------------------------------------------------------------------------------------
+| COURSE                         | CNUM TITLE CREDITS                                                                                   |
+| PREREQ                         | CNUM PNUM                                                                                            |
+| OFFERING                       | CNUM SECTION STARTHOUR ENDHOUR DAYS ROOM INSTRUCTOR                                                  |
+| STAFF                          | NAME SPOUSE RANK CAMPUSADDR EXTENSION                                                                |
+| INTERESTS                      | NAME INTEREST                                                                                        |
+| DEPT                           | NAME DEPT                                                                                            |
+*****************************************************************************************************************************************
+
+Inserting 3 attributes into COURSE
+Inserting 3 attributes into COURSE
+Inserting 3 attributes into COURSE
+Inserting 3 attributes into COURSE
+Inserting 3 attributes into COURSE
+Inserting 3 attributes into COURSE
+Inserting 3 attributes into COURSE
+Inserting 3 attributes into COURSE
+Inserting 2 attributes into PREREQ
+Inserting 2 attributes into PREREQ
+Inserting 2 attributes into PREREQ
+Inserting 2 attributes into PREREQ
+Inserting 2 attributes into PREREQ
+Inserting 2 attributes into PREREQ
+Inserting 2 attributes into PREREQ
+Inserting 2 attributes into PREREQ
+Inserting 2 attributes into PREREQ
+Inserting 2 attributes into PREREQ
+Inserting 7 attributes into OFFERING
+Inserting 7 attributes into OFFERING
+Inserting 7 attributes into OFFERING
+Inserting 7 attributes into OFFERING
+Inserting 7 attributes into OFFERING
+Inserting 7 attributes into OFFERING
+Inserting 5 attributes into STAFF
+Inserting 5 attributes into STAFF
+Inserting 2 attributes into INTERESTS
+Inserting 2 attributes into INTERESTS
+Inserting 2 attributes into DEPT
+Inserting 2 attributes into DEPT
+Inserting 2 attributes into DEPT
+
+***************************************************************************************
+| J                                                                                   |
+---------------------------------------------------------------------------------------
+| NAME                 | DEPT | NAME                 | INTEREST                       |
+---------------------------------------------------------------------------------------
+| DENEKE               | CSCI | DENEKE               | AI                             |
+| DENEKE               | CSCI | DENEKE               | DBMS                           |
+***************************************************************************************
+

@@ -1,0 +1,77 @@
+Creating COURSE with 3 attributes.
+Creating PREREQ with 2 attributes.
+Creating OFFERING with 7 attributes.
+Creating STAFF with 5 attributes.
+Creating INTERESTS with 2 attributes.
+Creating DEPT with 2 attributes.
+
+*****************************************************************************************************************************************
+| CATALOG                                                                                                                               |
+-----------------------------------------------------------------------------------------------------------------------------------------
+| RELNAME                        | RELSCHEMA                                                                                            |
+-----------------------------------------------------------------------------------------------------------------------------------------
+| COURSE                         | CNUM TITLE CREDITS                                                                                   |
+| PREREQ                         | CNUM PNUM                                                                                            |
+| OFFERING                       | CNUM SECTION STARTHOUR ENDHOUR DAYS ROOM INSTRUCTOR                                                  |
+| STAFF                          | NAME SPOUSE RANK CAMPUSADDR EXTENSION                                                                |
+| INTERESTS                      | NAME INTEREST                                                                                        |
+| DEPT                           | NAME DEPT                                                                                            |
+*****************************************************************************************************************************************
+
+Inserting 3 attributes into COURSE
+Inserting 3 attributes into COURSE
+Inserting 3 attributes into COURSE
+Inserting 3 attributes into COURSE
+Inserting 3 attributes into COURSE
+Inserting 3 attributes into COURSE
+Inserting 3 attributes into COURSE
+Inserting 3 attributes into COURSE
+Inserting 2 attributes into PREREQ
+Inserting 2 attributes into PREREQ
+Inserting 2 attributes into PREREQ
+Inserting 2 attributes into PREREQ
+Inserting 2 attributes into PREREQ
+Inserting 2 attributes into PREREQ
+Inserting 2 attributes into PREREQ
+Inserting 2 attributes into PREREQ
+Inserting 2 attributes into PREREQ
+Inserting 2 attributes into PREREQ
+Inserting 7 attributes into OFFERING
+Inserting 7 attributes into OFFERING
+Inserting 7 attributes into OFFERING
+Inserting 7 attributes into OFFERING
+Inserting 7 attributes into OFFERING
+Inserting 7 attributes into OFFERING
+Inserting 5 attributes into STAFF
+Inserting 5 attributes into STAFF
+Inserting 2 attributes into INTERESTS
+Inserting 2 attributes into INTERESTS
+Inserting 2 attributes into DEPT
+Inserting 2 attributes into DEPT
+Inserting 2 attributes into DEPT
+
+*******************************************************
+| COURSE                                              |
+-------------------------------------------------------
+| CNUM     | TITLE                          | CREDITS |
+-------------------------------------------------------
+| CSCI141  |  COMPUTER PROGRAMMING I        | 4       |
+| CSCI145  |  COMP PROG & LINER DATA STRUCT | 4       |
+| CSCI241  |  DATA STRUCTURES               | 4       |
+| CSCI301  |  FORMAL LANGUAGES              | 5       |
+| CSCI305  | ALGORITHMS                     | 4       |
+| CSCI330  |  DATABASE SYSTEMS              | 4       |
+| CSCI345  |  OBJECT ORIENTED DESIGN        | 4       |
+| CSCI666  |  FORMAL LANGUAGES              | 5       |
+*******************************************************
+
+
+*******************************************************
+| T                                                   |
+-------------------------------------------------------
+| CNUM     | TITLE                          | CREDITS |
+-------------------------------------------------------
+| CSCI345  |  OBJECT ORIENTED DESIGN        | 4       |
+| CSCI666  |  FORMAL LANGUAGES              | 5       |
+*******************************************************
+
